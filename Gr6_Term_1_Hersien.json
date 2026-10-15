@@ -1,0 +1,117 @@
+{
+  "metadata": {
+    "title": "Afrikaans Huistaal Graad 6 Kwartaal 1 Dataset",
+    "target_grade": 6,
+    "term": 1,
+    "topics": [
+      "Meervoude",
+      "Verkleinwoorde",
+      "Geslag"
+    ],
+    "usage_instructions": "Use this dataset to generate assessments. 'distractors' represent common linguistic errors (phonetic/orthographic traps) to test deep understanding."
+  },
+  "assessment_data": {
+    "meervoude": [
+      {
+        "word": "donkie",
+        "answer": "donkies",
+        "distractors": ["donkiee", "donkiere", "donkieë"],
+        "rule": "Simple -s suffix"
+      },
+      {
+        "word": "bok",
+        "answer": "bokke",
+        "distractors": ["boks", "boke", "bokte"],
+        "rule": "Consonant doubling with -e"
+      },
+      {
+        "word": "hond",
+        "answer": "honde",
+        "distractors": ["honds", "hondte", "hondies"],
+        "rule": "Simple -e suffix"
+      },
+      {
+        "word": "stad",
+        "answer": "stede",
+        "distractors": ["stads", "stadde", "stadere"],
+        "rule": "Vowel change (unusual plural)"
+      },
+      {
+        "word": "taxi",
+        "answer": "taxi's",
+        "distractors": ["taxis", "taxie", "taxies"],
+        "rule": "Apostrophe -s (words ending in emphasized vowels)"
+      },
+      {
+        "word": "kar",
+        "answer": "karre",
+        "distractors": ["kars", "kare", "karries"],
+        "rule": "Consonant doubling with -e"
+      }
+    ],
+    "verkleinwoorde": [
+      {
+        "word": "hond",
+        "answer": "hondjie",
+        "distractors": ["hondetjie", "hondtjie", "hondkie"],
+        "rule": "Endings on d/t get -jie"
+      },
+      {
+        "word": "bok",
+        "answer": "bokkie",
+        "distractors": ["bokjie", "boketjie", "bokpie"],
+        "rule": "Short vowel + consonant gets -kie"
+      },
+      {
+        "word": "kar",
+        "answer": "karretjie",
+        "distractors": ["karkie", "karrejie", "karrepie"],
+        "rule": "Short vowel + r gets -etjie with doubling"
+      },
+      {
+        "word": "donkie",
+        "answer": "donkietjie",
+        "distractors": ["donkiejie", "donkieetjie", "donkiepie"],
+        "rule": "Ending on emphasized vowel/ie gets -tjie"
+      },
+      {
+        "word": "stad",
+        "answer": "stadjie",
+        "distractors": ["stadietjie", "stadejie", "stade-tjie"],
+        "rule": "D-ending gets -jie"
+      },
+      {
+        "word": "taxi",
+        "answer": "taxi'tjie",
+        "distractors": ["taxitjie", "taxijie", "taxi'etjie"],
+        "rule": "Apostrophe -tjie for vowel-ending emphasis"
+      }
+    ],
+    "geslag": [
+      {
+        "word": "reun",
+        "answer": "teef",
+        "distractors": ["reunvrou", "reunin", "reuneres"],
+        "type": "Animal Gender (Dog)"
+      },
+      {
+        "word": "hings",
+        "answer": "merrie",
+        "distractors": ["hingsin", "hingses", "vrouhings"],
+        "type": "Animal Gender (Horse)"
+      },
+      {
+        "word": "ram",
+        "answer": "ooi",
+        "distractors": ["ramin", "rames"],
+        "type": "Animal Gender (Sheep)"
+      },
+      {
+        "word": "bestuurder",
+        "answer": "bestuurderes",
+        "distractors": ["bestuurderin", "bestuurderesse", "bestuurvrou"],
+        "type": "Suffix-based Gender (Manager)"
+      }
+    ]
+  }
+}
